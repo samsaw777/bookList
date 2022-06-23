@@ -3,14 +3,22 @@ const groceryItemsList = [
   {
     name: "Milk",
     price: 200,
+    url: "Images/milk.png",
   },
   {
-    name: "Milk",
+    name: "Grap",
     price: 200,
+    url: "Images/graps.png",
   },
   {
-    name: "Milk",
+    name: "Apple",
     price: 200,
+    url: "Images/apple.png",
+  },
+  {
+    name: "Butter",
+    price: 200,
+    url: "Images/butter.png",
   },
 ];
 
