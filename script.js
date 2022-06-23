@@ -1,23 +1,8 @@
-console.log("Hello World");
+//importing the items from anothe js file.
+import groceryItemsList from "/Items.js";
 
 //Getting the elements using id's
 const groceryDiv = document.getElementById("groceryList");
-
-//Some array of objects.
-const groceryItemsList = [
-  {
-    name: "Milk",
-    price: 200,
-  },
-  {
-    name: "Milk",
-    price: 200,
-  },
-  {
-    name: "Milk",
-    price: 200,
-  },
-];
 
 groceryItemsList.map((item) => {
   groceryDiv.innerHTML += `
